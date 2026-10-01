@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparse-attention-lab"
+version = "0.1.0"
+description = "Deterministic CPU attention edge comparison"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sal = "sparse_attention_lab.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sparse_attention_lab*"]

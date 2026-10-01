@@ -1,0 +1,6 @@
+# Synthetic hand-written five-record input
+{"id":"tiny-diagonal","synthetic":true,"length":2,"reference_edges":[[0,0],[1,1]]}
+{"id":"tiny-full","synthetic":true,"length":2,"reference_edges":[[0,0],[1,0],[1,1]]}
+{"id":"tiny-empty","synthetic":true,"length":2,"reference_edges":[]}
+{"id":"tiny-single","synthetic":true,"length":1,"reference_edges":[[0,0]]}
+{"id":"tiny-partial","synthetic":true,"length":2,"reference_edges":[[0,0]]}
