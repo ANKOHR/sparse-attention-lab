@@ -1,0 +1,7 @@
+Sparse Attention Lab local build complete, 2026-10-01.
+Tests: 33 passed (python -m pytest -q, 0.78 seconds).
+Local implementation commit: f4739edd3fe1d46ab23158a23746d3e3b87ae3ad
+This report is committed separately to avoid a self-referential commit hash.
+Installed-command fixture demo: 1.2521435 seconds, measured locally.
+
+Built a dependency-free CPU-only sal CLI with fixtures, run, report, pattern, and compare subcommands; pure causal mask and exact edge-set comparison logic; a labelled 200-record synthetic fixture with independent hand arithmetic; a hand-written five-record example; deterministic Markdown/JSON reports with provenance and an explicit honesty boundary; named input/schema/write failures; adversarial, corruption, determinism, and planted-ground-truth tests; and complete quickstart, schema, architecture, lessons, evidence, and two-week review documentation. All 200 planted exact matches are found with zero false positive exact-match detections. Edge-level totals reconcile exactly. The installed executable is sal.exe in PowerShell because sal is a built-in shell alias. No publishing was performed. The real-use verdict is pending the required two-week evidence window.
